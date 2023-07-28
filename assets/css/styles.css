@@ -410,13 +410,23 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
-  .hero img {
-    height: 200px;/* 37.5rem; */
+  /* .hero img {
+    height: 37.5rem;
      width: 23rem;
   }
 
   .bio {
     width: 18.3rem;
+  } */
+
+  .hero img {
+    height: auto; /* Adjust the height to fit proportionally within the container */
+    max-width: 100%; /* Adjust the width to fit proportionally within the container */
+  }
+
+  .bio {
+    /* Add some padding or margin to separate the bio from the image */
+    margin-top: 20px; /* You can adjust this value as needed */
   }
 
   .project-container {
