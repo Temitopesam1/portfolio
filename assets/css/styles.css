@@ -411,13 +411,13 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
-    width: 23rem;
+    height: 200px; /* 37.5rem;
+     width: 23rem; */
   }
 
-  .bio {
+  /* .bio {
     width: 18.3rem;
-  }
+  } */
 
   .project-container {
     width: 17.875rem;
